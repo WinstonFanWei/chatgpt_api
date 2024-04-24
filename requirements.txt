@@ -1,0 +1,7 @@
+openai
+os
+streamlit
+time
+jwt
+requests
+dotenv
