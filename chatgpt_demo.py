@@ -32,7 +32,7 @@ def get_completion(key, model, max_tokens, temperature, content):
 st.set_page_config(page_title="ChatGPT机器人api部署")
 
 with st.sidebar:
-    st.title('通过API与大模型的对话')
+    st.title('范维设计-通过API与大模型的对话')
     # st.write('支持的大模型包括的ChatGLM3和4')
     if 'API_TOKEN' in st.session_state and len(st.session_state['API_TOKEN']) > 1:
         st.success('API Token已经配置', icon='✅')
