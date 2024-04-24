@@ -44,7 +44,7 @@ with st.sidebar:
 
     st.session_state['API_TOKEN'] = key
 
-    model = st.selectbox("选择模型", ["gpt-3.5-turbo-0613", "gpt-4-0613"])
+    model = st.selectbox("选择模型", ["gpt-3.5-turbo", "gpt-4-turbo"])
     max_tokens = st.slider("max_tokens", 0, 2000, value=512)
     temperature = st.slider("temperature", 0.0, 2.0, value=0.8)
 
