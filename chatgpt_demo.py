@@ -4,10 +4,6 @@ import openai
 import streamlit as st
 from streamlit.web.cli import main
 
-import time
-import jwt
-import requests
-
 from dotenv import load_dotenv, find_dotenv
 
 def get_completion(key, model, max_tokens, temperature, content):
