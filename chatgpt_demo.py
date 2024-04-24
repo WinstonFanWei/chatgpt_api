@@ -10,9 +10,6 @@ import requests
 
 from dotenv import load_dotenv, find_dotenv
 
-import pandas as pd
-import numpy as np
-
 def get_completion(key, model, max_tokens, temperature, content):
     """一个封装 OpenAI 接口的函数，参数为 Prompt，返回对应结果
 
