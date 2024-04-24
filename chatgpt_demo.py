@@ -33,6 +33,7 @@ st.set_page_config(page_title="ChatGPT机器人api部署")
 
 with st.sidebar:
     st.title('范维设计-通过API与大模型的对话')
+    st.text("最好使用自己的Token，管理员的Token在不同电脑上登录后会被禁掉")
     # st.write('支持的大模型包括的ChatGLM3和4')
     if 'API_TOKEN' in st.session_state and len(st.session_state['API_TOKEN']) > 1:
         st.success('API Token已经配置', icon='✅')
