@@ -4,8 +4,6 @@ import openai
 import streamlit as st
 from streamlit.web.cli import main
 
-from dotenv import load_dotenv, find_dotenv
-
 def get_completion(key, model, max_tokens, temperature, content):
     """一个封装 OpenAI 接口的函数，参数为 Prompt，返回对应结果
 
